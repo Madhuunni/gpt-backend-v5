@@ -1,0 +1,36 @@
+{
+  "examples": 905,
+  "exact_json_accuracy": 1.0,
+  "entity_precision": 1.0,
+  "entity_recall": 1.0,
+  "entity_f1": 1.0,
+  "no_id_examples": 86,
+  "no_id_accuracy": 1.0,
+  "per_field": {
+    "case_id": {
+      "tp": 159,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "employee_id": {
+      "tp": 504,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "sr_no": {
+      "tp": 168,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "note": "Held-out template-family split of bootstrapped/synthetic examples; not a production accuracy guarantee."
+}

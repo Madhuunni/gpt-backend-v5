@@ -1,0 +1,21 @@
+{
+  "intents": [
+    {
+      "query_patterns": [
+        "Show Overpayment details for the employee 123267",
+        "Show Overpayment details for the employee ID 3453456",
+        "Show Overpayment details for the employee id 56456",
+        "Show Overpayment details for the employee Id 789665",
+        "Show Overpayment details for an employee Id 56776",
+        "Show Overpayment details for the case 123267",
+        "Show Overpayment details for the case id 1253267",
+        "Show Overpayment details for the case ID 44456",
+        "Show Overpayment details for the case Id 1232667",
+        "Show Overpayment details for the OP SR 5677566",
+        "Show Overpayment details for the SR Number 64554",
+        "Show Overpayment details for the SR # 90782"
+      ],
+      "context": "case_details"
+    }
+  ]
+}

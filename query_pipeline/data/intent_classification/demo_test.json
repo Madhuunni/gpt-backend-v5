@@ -1,0 +1,28 @@
+{
+  "intents": [
+    {
+      "query_patterns": [
+        "Please fetch overpayment details for employee 998877",
+        "Can you display information about overpayment case 887766",
+        "I want to view the overpayment record for SR 776655"
+      ],
+      "context": "case_details"
+    },
+    {
+      "query_patterns": [
+        "Please fetch installment details for employee 998877",
+        "Can you display the installment schedule for case 887766",
+        "I want to view the installment plan for SR 776655"
+      ],
+      "context": "installment_details"
+    },
+    {
+      "query_patterns": [
+        "Please fetch payment history for employee 998877",
+        "Can you display previous payment transactions for case 887766",
+        "I want to view received payments for SR 776655"
+      ],
+      "context": "payment_history"
+    }
+  ]
+}

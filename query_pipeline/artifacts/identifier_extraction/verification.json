@@ -1,0 +1,9 @@
+{
+  "python": "3.12",
+  "pytorch": "2.14.1+cpu",
+  "contract_tests": "3 unittest methods passed, including 11 example predictions",
+  "data_checks": "All spans valid; no shared group or exact text across splits",
+  "test_examples": 905,
+  "test_exact_json_accuracy": 1.0,
+  "warning": "Generated test data; real-query generalization remains unmeasured."
+}

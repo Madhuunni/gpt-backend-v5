@@ -1,0 +1,12 @@
+# Compatible baseline for Python 3.10 and the user's PyTorch 2.2.1.
+# An existing Conda torch 2.2.1 installation satisfies this pin.
+torch==2.2.1
+numpy==1.26.4
+langgraph==0.2.76
+fastapi==0.115.8
+uvicorn==0.34.0
+pydantic==2.10.6
+
+scikit-learn==1.4.2
+
+httpx==0.28.1

@@ -1,0 +1,63 @@
+{
+  "intents": [
+    {
+      "query_patterns": [
+        "Show Overpayment details for the employee 123267",
+        "Show Overpayment details for the employee ID 3453456",
+        "Show Overpayment details for the employee id 56456",
+        "Show Overpayment details for the employee Id 789665",
+        "Show Overpayment details for an employee Id 56776",
+        "Show Overpayment details for the case 123267",
+        "Show Overpayment details for the case id 1253267",
+        "Show Overpayment details for the case ID 44456",
+        "Show Overpayment details for the case Id 1232667",
+        "Show Overpayment details for the OP SR 5677566",
+        "Show Overpayment details for the SR Number 64554",
+        "Show Overpayment details for the SR # 90782",
+        "Get overpayment case information for employee 88221",
+        "Display overpayment details for SR 44551",
+        "Look up the overpayment record for case 66112",
+        "I need overpayment case details for staff ID 55123",
+        "Retrieve the overpayment information for service request 76111",
+        "Find overpayment details associated with employee number 12345",
+        "Open the overpayment case record 81123",
+        "Give me details about overpayment SR 44321"
+      ],
+      "context": "case_details"
+    },
+    {
+      "query_patterns": [
+        "Show installment details for employee 123267",
+        "List installments for case 3453456",
+        "Get the installment schedule for employee ID 56456",
+        "Display installment details for SR 789665",
+        "Find installment records for employee 56776",
+        "I need the installment repayment schedule for case 44456",
+        "Retrieve installment information for service request 90782",
+        "What are the installments for employee 12345",
+        "Open installment details for case ID 34567",
+        "Give me the installment plan for staff member 55443",
+        "View scheduled installments for employee 99331",
+        "Fetch installment payment details for case 22211"
+      ],
+      "context": "installment_details"
+    },
+    {
+      "query_patterns": [
+        "Show payment history for employee 123267",
+        "List previous payments for case 3453456",
+        "Get historical payments for employee ID 56456",
+        "Display payment transactions for SR 789665",
+        "Find completed payments for employee 56776",
+        "I need payment history for case 44456",
+        "Retrieve past payment records for service request 90782",
+        "What payments were received from employee 12345",
+        "Open payment transaction history for case ID 34567",
+        "Give me received payment details for staff member 55443",
+        "View the payment ledger for employee 99331",
+        "Fetch previous payment receipts for case 22211"
+      ],
+      "context": "payment_history"
+    }
+  ]
+}

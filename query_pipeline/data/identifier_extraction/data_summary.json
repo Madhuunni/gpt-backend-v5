@@ -1,0 +1,26 @@
+{
+  "source_patterns": 3200,
+  "splits": {
+    "train": 8518,
+    "test": 905,
+    "validation": 667
+  },
+  "entity_counts": {
+    "train": {
+      "employee_id": 4581,
+      "case_id": 1638,
+      "sr_no": 1773
+    },
+    "test": {
+      "employee_id": 504,
+      "case_id": 159,
+      "sr_no": 168
+    },
+    "validation": {
+      "employee_id": 435,
+      "case_id": 75,
+      "sr_no": 75
+    }
+  },
+  "note": "Rule-bootstrapped and synthetic labels; template-family split, not independently human-labeled evaluation."
+}

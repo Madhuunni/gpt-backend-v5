@@ -1,0 +1,12 @@
+# Tested on Python 3.10.21 with torch 2.2.1+cpu.
+# Torch pin also accepts the user's existing 2.2.1 CUDA build.
+torch==2.2.1
+numpy==1.26.4
+langgraph==0.2.76
+fastapi==0.115.8
+uvicorn==0.34.0
+pydantic==2.10.6
+pytest==8.3.5
+httpx==0.28.1
+
+scikit-learn==1.4.2

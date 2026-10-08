@@ -1,0 +1,66 @@
+{
+  "accuracy": 0.8888888888888888,
+  "classification_report": {
+    "case_details": {
+      "precision": 1.0,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.8,
+      "support": 3.0
+    },
+    "installment_details": {
+      "precision": 0.75,
+      "recall": 1.0,
+      "f1-score": 0.8571428571428571,
+      "support": 3.0
+    },
+    "payment_history": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 3.0
+    },
+    "accuracy": 0.8888888888888888,
+    "macro avg": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8857142857142857,
+      "support": 9.0
+    },
+    "weighted avg": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.8857142857142857,
+      "support": 9.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "case_details",
+    "installment_details",
+    "payment_history"
+  ],
+  "confusion_matrix_rows_actual_columns_predicted": [
+    [
+      2,
+      1,
+      0
+    ],
+    [
+      0,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      3
+    ]
+  ],
+  "examples": 9,
+  "errors": [
+    {
+      "query": "please fetch overpayment details for employee numbertoken",
+      "expected": "case_details",
+      "predicted": "installment_details"
+    }
+  ]
+}
